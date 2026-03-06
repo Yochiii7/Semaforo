@@ -26,3 +26,32 @@ void loop() {
  
 
   digitalWrite(R1, HIGH); digitalWrite(AZ1, HIGH);
+
+ 
+  digitalWrite(R2, LOW); digitalWrite(AZ2, LOW);
+  
+  digitalWrite(V2, HIGH);
+  delay(4000); // Verde: 4 segundos
+  digitalWrite(V2, LOW);
+
+  digitalWrite(AM2, HIGH);
+  delay(2000); // Amarillo: 2 segundos
+  digitalWrite(AM2, LOW);
+
+  
+  digitalWrite(R2, HIGH); digitalWrite(AZ2, HIGH);
+
+  
+  digitalWrite(R3, LOW); digitalWrite(AZ3, LOW);
+  
+  digitalWrite(V3, HIGH);
+  delay(4000); // Verde: 4 segundos
+  digitalWrite(V3, LOW);
+
+  digitalWrite(AM3, HIGH);
+  delay(2000); // Amarillo: 2 segundos
+  digitalWrite(AM3, LOW);
+
+  
+  digitalWrite(R3, HIGH); digitalWrite(AZ3, HIGH);
+}
