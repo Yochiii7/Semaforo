@@ -28,3 +28,31 @@ void loop() {
   digitalWrite(R1, HIGH); digitalWrite(AZ1, HIGH);
 
  // semaforo 2
+
+  digitalWrite(R2, LOW); digitalWrite(AZ2, LOW);
+  
+  digitalWrite(V2, HIGH);
+  delay(4000); 
+  digitalWrite(V2, LOW);
+
+  digitalWrite(AM2, HIGH);
+  delay(2000); 
+  digitalWrite(AM2, LOW);
+
+  
+  digitalWrite(R2, HIGH); digitalWrite(AZ2, HIGH);
+
+  //semaforo 3
+  digitalWrite(R3, LOW); digitalWrite(AZ3, LOW);
+  
+  digitalWrite(V3, HIGH);
+  delay(4000);
+  digitalWrite(V3, LOW);
+
+  digitalWrite(AM3, HIGH);
+  delay(2000); 
+  digitalWrite(AM3, LOW);
+
+  
+  digitalWrite(R3, HIGH); digitalWrite(AZ3, HIGH);
+}
