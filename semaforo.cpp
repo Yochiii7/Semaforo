@@ -17,11 +17,11 @@ void loop() {
   digitalWrite(R3, HIGH); digitalWrite(AZ3, HIGH);
  
   digitalWrite(V1, HIGH);
-  delay(4000); // Verde: 4 segundos
+  delay(4000); 
   digitalWrite(V1, LOW);
 
   digitalWrite(AM1, HIGH);
-  delay(2000); // Amarillo: 2 segundos
+  delay(2000); 
   digitalWrite(AM1, LOW);
  
 
@@ -31,11 +31,11 @@ void loop() {
   digitalWrite(R2, LOW); digitalWrite(AZ2, LOW);
   
   digitalWrite(V2, HIGH);
-  delay(4000); // Verde: 4 segundos
+  delay(4000); 
   digitalWrite(V2, LOW);
 
   digitalWrite(AM2, HIGH);
-  delay(2000); // Amarillo: 2 segundos
+  delay(2000); 
   digitalWrite(AM2, LOW);
 
   
@@ -45,11 +45,11 @@ void loop() {
   digitalWrite(R3, LOW); digitalWrite(AZ3, LOW);
   
   digitalWrite(V3, HIGH);
-  delay(4000); // Verde: 4 segundos
+  delay(4000);
   digitalWrite(V3, LOW);
 
   digitalWrite(AM3, HIGH);
-  delay(2000); // Amarillo: 2 segundos
+  delay(2000); 
   digitalWrite(AM3, LOW);
 
   
